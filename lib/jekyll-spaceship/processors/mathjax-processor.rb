@@ -13,7 +13,8 @@ module Jekyll::Spaceship
         'config' => {
           'tex' => {
             'inlineMath' => [['$','$'], ['\\(','\\)']],
-            'displayMath' => [['$$','$$'], ['\\[','\\]']]
+            'displayMath' => [['$$','$$'], ['\\[','\\]']],
+            'processEscapes' => true
           },
           'svg': { 'fontCache': 'global' }
         },
